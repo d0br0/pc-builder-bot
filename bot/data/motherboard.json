@@ -1,0 +1,250 @@
+[
+  {
+    "name": "ASUS PRIME H610M-A D4",
+    "socket": "LGA1700",
+    "form_factor": "mATX",
+    "ddr": "DDR4",
+    "chipset": "H610",
+    "price": 5500
+  },
+  {
+    "name": "Gigabyte H610M H DDR4",
+    "socket": "LGA1700",
+    "form_factor": "mATX",
+    "ddr": "DDR4",
+    "chipset": "H610",
+    "price": 5000
+  },
+  {
+    "name": "MSI B660M-A WiFi DDR4",
+    "socket": "LGA1700",
+    "form_factor": "mATX",
+    "ddr": "DDR4",
+    "chipset": "B660",
+    "price": 7500
+  },
+  {
+    "name": "ASRock B660M-HDV",
+    "socket": "LGA1700",
+    "form_factor": "mATX",
+    "ddr": "DDR4",
+    "chipset": "B660",
+    "price": 7000
+  },
+  {
+    "name": "ASUS TUF Gaming Z690-Plus WiFi D4",
+    "socket": "LGA1700",
+    "form_factor": "ATX",
+    "ddr": "DDR4",
+    "chipset": "Z690",
+    "price": 14000
+  },
+  {
+    "name": "Gigabyte Z790 Aorus Elite AX",
+    "socket": "LGA1700",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "Z790",
+    "price": 18000
+  },
+  {
+    "name": "ASRock B760M-HDV/M.2 D4",
+    "socket": "LGA1700",
+    "form_factor": "mATX",
+    "ddr": "DDR4",
+    "chipset": "B760",
+    "price": 8000
+  },
+  {
+    "name": "MSI PRO B760M-P DDR4",
+    "socket": "LGA1700",
+    "form_factor": "mATX",
+    "ddr": "DDR4",
+    "chipset": "B760",
+    "price": 8500
+  },
+  {
+    "name": "Gigabyte Z790 UD DDR4",
+    "socket": "LGA1700",
+    "form_factor": "ATX",
+    "ddr": "DDR4",
+    "chipset": "Z790",
+    "price": 12000
+  },
+  {
+    "name": "ASUS PRIME H770-Plus WiFi",
+    "socket": "FCLGA1851",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "H770",
+    "price": 11000
+  },
+  {
+    "name": "MSI MAG B760 Tomahawk WiFi (LGA1851)",
+    "socket": "FCLGA1851",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "B760",
+    "price": 10000
+  },
+  {
+    "name": "Gigabyte Z890 Aorus Elite AX (LGA1851)",
+    "socket": "FCLGA1851",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "Z890",
+    "price": 22000
+  },
+  {
+    "name": "ASRock B760M-HDV/M.2 (LGA1851)",
+    "socket": "FCLGA1851",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "B760",
+    "price": 8500
+  },
+  {
+    "name": "ASUS ROG Strix Z890-E Gaming WiFi",
+    "socket": "FCLGA1851",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "Z890",
+    "price": 25000
+  },
+  {
+    "name": "ASUS PRIME A520M-K",
+    "socket": "AM4",
+    "form_factor": "mATX",
+    "ddr": "DDR4",
+    "chipset": "A520",
+    "price": 4000
+  },
+  {
+    "name": "Gigabyte A520M H V2",
+    "socket": "AM4",
+    "form_factor": "mATX",
+    "ddr": "DDR4",
+    "chipset": "A520",
+    "price": 4500
+  },
+  {
+    "name": "MSI B550-A PRO",
+    "socket": "AM4",
+    "form_factor": "ATX",
+    "ddr": "DDR4",
+    "chipset": "B550",
+    "price": 8000
+  },
+  {
+    "name": "ASUS TUF Gaming B550-Plus (Wi-Fi)",
+    "socket": "AM4",
+    "form_factor": "ATX",
+    "ddr": "DDR4",
+    "chipset": "B550",
+    "price": 9000
+  },
+  {
+    "name": "ASUS TUF Gaming X570-Plus (Wi-Fi)",
+    "socket": "AM4",
+    "form_factor": "ATX",
+    "ddr": "DDR4",
+    "chipset": "X570",
+    "price": 12000
+  },
+  {
+    "name": "Gigabyte X570 Aorus Elite",
+    "socket": "AM4",
+    "form_factor": "ATX",
+    "ddr": "DDR4",
+    "chipset": "X570",
+    "price": 13000
+  },
+  {
+    "name": "ASRock A620M-HVS",
+    "socket": "AM5",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "A620",
+    "price": 5000
+  },
+  {
+    "name": "ASUS PRIME A620M-A",
+    "socket": "AM5",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "A620",
+    "price": 5500
+  },
+  {
+    "name": "ASUS Prime B650-Plus",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "B650",
+    "price": 10000
+  },
+  {
+    "name": "MSI PRO B650M-P WIFI",
+    "socket": "AM5",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "B650",
+    "price": 9500
+  },
+  {
+    "name": "ASUS ROG Strix B650E-F Gaming WiFi",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "B650E",
+    "price": 16000
+  },
+  {
+    "name": "MSI X670E Tomahawk WiFi",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "X670E",
+    "price": 22000
+  },
+  {
+    "name": "ASRock X670E Taichi",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "X670E",
+    "price": 25000
+  },
+  {
+    "name": "ASRock B850M-HDV",
+    "socket": "AM5",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "B850",
+    "price": 9500
+  },
+  {
+    "name": "ASUS TUF Gaming B850-Plus WiFi",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "B850",
+    "price": 12000
+  },
+  {
+    "name": "Gigabyte X870 Aorus Elite AX",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "X870",
+    "price": 20000
+  },
+  {
+    "name": "MSI MEG X870 Godlike",
+    "socket": "AM5",
+    "form_factor": "EATX",
+    "ddr": "DDR5",
+    "chipset": "X870",
+    "price": 45000
+  }
+]

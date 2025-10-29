@@ -1,0 +1,130 @@
+[
+  {
+    "name": "NVIDIA GeForce RTX 4090",
+    "vram": 24,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 450,
+    "gpu_frequency": 2230,
+    "price": 130000
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4080",
+    "vram": 16,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 320,
+    "gpu_frequency": 2205,
+    "price": 85000
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4070 Ti",
+    "vram": 12,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 285,
+    "gpu_frequency": 2310,
+    "price": 60000
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4070",
+    "vram": 12,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 200,
+    "gpu_frequency": 1920,
+    "price": 50000
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4060 Ti 16GB",
+    "vram": 16,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 165,
+    "gpu_frequency": 2535,
+    "price": 45000
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4060",
+    "vram": 8,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 115,
+    "gpu_frequency": 1822,
+    "price": 30000
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5090",
+    "vram": 32,
+    "pcie_version": "PCIe 5.0",
+    "tdp": 550,
+    "gpu_frequency": 2800,
+    "price": 180000
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5080",
+    "vram": 20,
+    "pcie_version": "PCIe 5.0",
+    "tdp": 350,
+    "gpu_frequency": 2650,
+    "price": 110000
+  },
+  {
+    "name": "NVIDIA GeForce RTX 5070",
+    "vram": 16,
+    "pcie_version": "PCIe 5.0",
+    "tdp": 250,
+    "gpu_frequency": 2400,
+    "price": 75000
+  },
+  {
+    "name": "AMD Radeon RX 7900 XTX",
+    "vram": 24,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 355,
+    "gpu_frequency": 2500,
+    "price": 90000
+  },
+  {
+    "name": "AMD Radeon RX 7900 XT",
+    "vram": 20,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 300,
+    "gpu_frequency": 2400,
+    "price": 75000
+  },
+  {
+    "name": "AMD Radeon RX 7800 XT",
+    "vram": 16,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 263,
+    "gpu_frequency": 2430,
+    "price": 55000
+  },
+  {
+    "name": "AMD Radeon RX 7700 XT",
+    "vram": 12,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 245,
+    "gpu_frequency": 2170,
+    "price": 45000
+  },
+  {
+    "name": "AMD Radeon RX 7600",
+    "vram": 8,
+    "pcie_version": "PCIe 4.0",
+    "tdp": 165,
+    "gpu_frequency": 2040,
+    "price": 28000
+  },
+  {
+    "name": "AMD Radeon RX 9700 XTX",
+    "vram": 16,
+    "pcie_version": "PCIe 5.0",
+    "tdp": 300,
+    "gpu_frequency": 2600,
+    "price": 85000
+  },
+  {
+    "name": "AMD Radeon RX 9600 XTX",
+    "vram": 16,
+    "pcie_version": "PCIe 5.0",
+    "tdp": 250,
+    "gpu_frequency": 2500,
+    "price": 60000
+  }
+]

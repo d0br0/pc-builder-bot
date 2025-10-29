@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Corsair CV450 (2021) 450W",
+    "power": 450,
+    "efficiency_rating": "80+ Bronze",
+    "form_factor": "ATX",
+    "modular": "No",
+    "price": 3000
+  },
+  {
+    "name": "Cooler Master MWE 550 V2",
+    "power": 550,
+    "efficiency_rating": "80+ Bronze",
+    "form_factor": "ATX",
+    "modular": "No",
+    "price": 3500
+  },
+  {
+    "name": "Corsair CX550M (Semi-Modular)",
+    "power": 550,
+    "efficiency_rating": "80+ Bronze",
+    "form_factor": "ATX",
+    "modular": "Semi",
+    "price": 4000
+  },
+  {
+    "name": "EVGA 600 W1, 80+ WHITE 230W",
+    "power": 600,
+    "efficiency_rating": "80+ White",
+    "form_factor": "ATX",
+    "modular": "No",
+    "price": 2800
+  },
+  {
+    "name": "be quiet! System Power 10 600W",
+    "power": 600,
+    "efficiency_rating": "80+ Bronze",
+    "form_factor": "ATX",
+    "modular": "No",
+    "price": 4200
+  },
+  {
+    "name": "Corsair RM650x (2021) (Fully Modular)",
+    "power": 650,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Fully",
+    "price": 7500
+  },
+  {
+    "name": "Seasonic FOCUS GX-650 (Semi-Modular)",
+    "power": 650,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Semi",
+    "price": 7800
+  },
+  {
+    "name": "EVGA SuperNOVA 650 G5 (Semi-Modular)",
+    "power": 650,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Semi",
+    "price": 7200
+  },
+  {
+    "name": "Cooler Master MWE Gold 750 V2",
+    "power": 750,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "No",
+    "price": 6500
+  },
+  {
+    "name": "Corsair RM750x (2021) (Fully Modular)",
+    "power": 750,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Fully",
+    "price": 9000
+  },
+  {
+    "name": "Seasonic FOCUS GX-750 (Semi-Modular)",
+    "power": 750,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Semi",
+    "price": 9500
+  },
+  {
+    "name": "be quiet! Straight Power 11 750W (Semi-Modular)",
+    "power": 750,
+    "efficiency_rating": "80+ Platinum",
+    "form_factor": "ATX",
+    "modular": "Semi",
+    "price": 12000
+  },
+  {
+    "name": "Corsair RM850x (2021) (Fully Modular)",
+    "power": 850,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Fully",
+    "price": 11000
+  },
+  {
+    "name": "Seasonic FOCUS GX-850 (Semi-Modular)",
+    "power": 850,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Semi",
+    "price": 11500
+  },
+  {
+    "name": "EVGA SuperNOVA 850 G5 (Semi-Modular)",
+    "power": 850,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Semi",
+    "price": 10500
+  },
+  {
+    "name": "be quiet! Dark Power Pro 12 850W (Fully Modular)",
+    "power": 850,
+    "efficiency_rating": "80+ Platinum",
+    "form_factor": "ATX",
+    "modular": "Fully",
+    "price": 18000
+  },
+  {
+    "name": "Corsair RM1000x (2021) (Fully Modular)",
+    "power": 1000,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Fully",
+    "price": 14000
+  },
+  {
+    "name": "Seasonic PRIME TX-1000 (Fully Modular)",
+    "power": 1000,
+    "efficiency_rating": "80+ Titanium",
+    "form_factor": "ATX",
+    "modular": "Fully",
+    "price": 25000
+  },
+  {
+    "name": "EVGA SuperNOVA 1000 G5 (Semi-Modular)",
+    "power": 1000,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "ATX",
+    "modular": "Semi",
+    "price": 13000
+  },
+  {
+    "name": "Corsair SF600 (SFX, Semi-Modular)",
+    "power": 600,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "SFX",
+    "modular": "Semi",
+    "price": 8000
+  },
+  {
+    "name": "be quiet! Pure Power 11 600W CM (SFX, Semi-Modular)",
+    "power": 600,
+    "efficiency_rating": "80+ Bronze",
+    "form_factor": "SFX",
+    "modular": "Semi",
+    "price": 6500
+  },
+  {
+    "name": "Corsair SF750 (SFX, Fully Modular)",
+    "power": 750,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "SFX",
+    "modular": "Fully",
+    "price": 12000
+  },
+  {
+    "name": "Seasonic FOCUS SGX-750 (SFX, Semi-Modular)",
+    "power": 750,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "SFX",
+    "modular": "Semi",
+    "price": 13000
+  },
+  {
+    "name": "Cooler Master V750 SFX Gold",
+    "power": 750,
+    "efficiency_rating": "80+ Gold",
+    "form_factor": "SFX",
+    "modular": "No",
+    "price": 9000
+  }
+]

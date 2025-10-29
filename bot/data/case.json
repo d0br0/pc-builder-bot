@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Fractal Design Core 1000",
+    "form_factor": ["Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 300,
+    "max_cpu_cooler_height": 165,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 3500
+  },
+  {
+    "name": "Cooler Master MasterBox MB311L",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 330,
+    "max_cpu_cooler_height": 160,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 3000
+  },
+  {
+    "name": "Corsair 4000D Airflow",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 360,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 3, "3.5_inch": 2},
+    "price": 4500
+  },
+  {
+    "name": "NZXT H510 (2022)",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 360,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 6000
+  },
+  {
+    "name": "Corsair 220T RGB",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 360,
+    "max_cpu_cooler_height": 160,
+    "drive_bays": {"2.5_inch": 3, "3.5_inch": 2},
+    "price": 5500
+  },
+  {
+    "name": "Fractal Design Define Mini C",
+    "form_factor": ["Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 320,
+    "max_cpu_cooler_height": 165,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 7000
+  },
+  {
+    "name": "Lian Li Lancool III",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 400,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 3, "3.5_inch": 2},
+    "price": 12000
+  },
+  {
+    "name": "Phanteks Eclipse P400A",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 380,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 8000
+  },
+  {
+    "name": "be quiet! Pure Base 600",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 380,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 7500
+  },
+  {
+    "name": "Cooler Master MasterCase H500P",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 420,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 3, "3.5_inch": 2},
+    "price": 9000
+  },
+  {
+    "name": "Corsair iCUE 465T RGB",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "White",
+    "side_panel_window": true,
+    "max_gpu_length": 420,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 3, "3.5_inch": 2},
+    "price": 13000
+  },
+  {
+    "name": "Fractal Design Torrent",
+    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 450,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 15000
+  },
+  {
+    "name": "Lian Li PC-O11 Dynamic",
+    "form_factor": ["ATX", "E-ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 420,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 6, "3.5_inch": 2},
+    "price": 11000
+  },
+  {
+    "name": "Thermaltake View 71 TG RGB",
+    "form_factor": ["ATX", "E-ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 420,
+    "max_cpu_cooler_height": 170,
+    "drive_bays": {"2.5_inch": 4, "3.5_inch": 2},
+    "price": 14000
+  },
+  {
+    "name": "Corsair 7000D Airflow",
+    "form_factor": ["ATX", "E-ATX", "Micro-ATX", "Mini-ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 420,
+    "max_cpu_cooler_height": 180,
+    "drive_bays": {"2.5_inch": 4, "3.5_inch": 2},
+    "price": 16000
+  }
+]

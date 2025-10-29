@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200",
+    "ddr_version": "DDR4",
+    "frequency": 3200,
+    "total_capacity": 16,
+    "price": 4000
+  },
+  {
+    "name": "Kingston HyperX Fury 16GB (2x8GB) DDR4-3200",
+    "ddr_version": "DDR4",
+    "frequency": 3200,
+    "total_capacity": 16,
+    "price": 3800
+  },
+  {
+    "name": "G.Skill Ripjaws V 32GB (2x16GB) DDR4-3600",
+    "ddr_version": "DDR4",
+    "frequency": 3600,
+    "total_capacity": 32,
+    "price": 8000
+  },
+  {
+    "name": "Crucial Ballistix 32GB (2x16GB) DDR4-3200",
+    "ddr_version": "DDR4",
+    "frequency": 3200,
+    "total_capacity": 32,
+    "price": 7500
+  },
+  {
+    "name": "Corsair Dominator Platinum RGB 32GB (2x16GB) DDR4-3600",
+    "ddr_version": "DDR4",
+    "frequency": 3600,
+    "total_capacity": 32,
+    "price": 15000
+  },
+  {
+    "name": "G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5-5600",
+    "ddr_version": "DDR5",
+    "frequency": 5600,
+    "total_capacity": 32,
+    "price": 13000
+  },
+  {
+    "name": "Kingston FURY Beast 32GB (2x16GB) DDR5-5200",
+    "ddr_version": "DDR5",
+    "frequency": 5200,
+    "total_capacity": 32,
+    "price": 11000
+  },
+  {
+    "name": "Corsair Vengeance RGB RT 32GB (2x16GB) DDR5-5600",
+    "ddr_version": "DDR5",
+    "frequency": 5600,
+    "total_capacity": 32,
+    "price": 14000
+  },
+  {
+    "name": "Team T-Force Delta RGB 32GB (2x16GB) DDR5-5200",
+    "ddr_version": "DDR5",
+    "frequency": 5200,
+    "total_capacity": 32,
+    "price": 10000
+  },
+  {
+    "name": "Samsung M321R8FAF4 32GB (2x16GB) DDR5-4800",
+    "ddr_version": "DDR5",
+    "frequency": 4800,
+    "total_capacity": 32,
+    "price": 9500
+  },
+  {
+    "name": "G.Skill Flare X5 64GB (2x32GB) DDR4-3600",
+    "ddr_version": "DDR4",
+    "frequency": 3600,
+    "total_capacity": 64,
+    "price": 15000
+  },
+  {
+    "name": "Kingston HyperX Impact 64GB (2x32GB) DDR4-3200",
+    "ddr_version": "DDR4",
+    "frequency": 3200,
+    "total_capacity": 64,
+    "price": 14000
+  },
+  {
+    "name": "G.Skill Trident Z5 Royal 64GB (2x32GB) DDR5-6000",
+    "ddr_version": "DDR5",
+    "frequency": 6000,
+    "total_capacity": 64,
+    "price": 25000
+  },
+  {
+    "name": "Corsair Dominator Platinum 64GB (2x32GB) DDR5-5600",
+    "ddr_version": "DDR5",
+    "frequency": 5600,
+    "total_capacity": 64,
+    "price": 28000
+  },
+  {
+    "name": "TeamGroup T-Force XTREEM ARGB 64GB (2x32GB) DDR5-6200",
+    "ddr_version": "DDR5",
+    "frequency": 6200,
+    "total_capacity": 64,
+    "price": 30000
+  },
+  {
+    "name": "G.Skill Ripjaws 4 V 128GB (4x32GB) DDR4-3200",
+    "ddr_version": "DDR4",
+    "frequency": 3200,
+    "total_capacity": 128,
+    "price": 28000
+  },
+  {
+    "name": "Corsair Vengeance RGB Pro 128GB (4x32GB) DDR4-3600",
+    "ddr_version": "DDR4",
+    "frequency": 3600,
+    "total_capacity": 128,
+    "price": 35000
+  },
+  {
+    "name": "Kingston HyperX Fury 128GB (4x32GB) DDR4-3466",
+    "ddr_version": "DDR4",
+    "frequency": 3466,
+    "total_capacity": 128,
+    "price": 32000
+  },
+  {
+    "name": "G.Skill Trident Z5 RGB 128GB (4x32GB) DDR5-6400",
+    "ddr_version": "DDR5",
+    "frequency": 6400,
+    "total_capacity": 128,
+    "price": 50000
+  },
+  {
+    "name": "Corsair Dominator Platinum RGB 128GB (4x32GB) DDR5-6000",
+    "ddr_version": "DDR5",
+    "frequency": 6000,
+    "total_capacity": 128,
+    "price": 60000
+  },
+  {
+    "name": "TeamGroup T-Force Delta RGB 128GB (4x32GB) DDR5-6200",
+    "ddr_version": "DDR5",
+    "frequency": 6200,
+    "total_capacity": 128,
+    "price": 55000
+  },
+  {
+    "name": "G.Skill Trident Z5 Royal 128GB (4x32GB) DDR5-7200",
+    "ddr_version": "DDR5",
+    "frequency": 7200,
+    "total_capacity": 128,
+    "price": 80000
+  },
+  {
+    "name": "Corsair Vengeance RGB RT 96GB (2x48GB) DDR5-6000",
+    "ddr_version": "DDR5",
+    "frequency": 6000,
+    "total_capacity": 96,
+    "price": 45000
+  },
+  {
+    "name": "G.Skill Ripjaws S5 96GB (2x48GB) DDR5-5600",
+    "ddr_version": "DDR5",
+    "frequency": 5600,
+    "total_capacity": 96,
+    "price": 40000
+  }
+]

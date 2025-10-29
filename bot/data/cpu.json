@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Intel Core i3-12100",
+    "socket": "LGA1700",
+    "tdp": 60,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 8500,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 4
+  },
+  {
+    "name": "Intel Core i3-12100F",
+    "socket": "LGA1700",
+    "tdp": 58,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 7500,
+    "igpu": null,
+    "cores": 4
+  },
+  {
+    "name": "Intel Core i3-13100",
+    "socket": "LGA1700",
+    "tdp": 60,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 9000,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 4
+  },
+  {
+    "name": "Intel Core i3-13100F",
+    "socket": "LGA1700",
+    "tdp": 58,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 8000,
+    "igpu": null,
+    "cores": 4
+  },
+  {
+    "name": "Intel Core i3-14100",
+    "socket": "LGA1700",
+    "tdp": 58,
+    "compatibility_mb": ["B760", "H610", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 8500,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 4
+  },
+  {
+    "name": "Intel Core i3-14100F",
+    "socket": "LGA1700",
+    "tdp": 58,
+    "compatibility_mb": ["B760", "H610", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 7500,
+    "igpu": null,
+    "cores": 4
+  },
+  {
+    "name": "Intel Core i5-12400",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 11500,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-12400F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 11000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-12500",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 12500,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-12500T",
+    "socket": "LGA1700",
+    "tdp": 35,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 10000,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-12600K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 17000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-12600KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 16000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-13400",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 12500,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-13400F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 12000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-13500",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "H610", "Z690"],
+    "ddr": "DDR4",
+    "price": 14000,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-13600K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 21000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-13600KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 20000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-14400",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B760", "H610", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 13500,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-14400F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B760", "H610", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 13000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-14500",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B760", "H610", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 15000,
+    "igpu": "Intel UHD Graphics 730",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-14600K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 23000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i5-14600KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 22000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "Intel Core i7-12700",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 22000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 12
+  },
+  {
+    "name": "Intel Core i7-12700F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 20000,
+    "igpu": null,
+    "cores": 12
+  },
+  {
+    "name": "Intel Core i7-12700K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 26000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 12
+  },
+  {
+    "name": "Intel Core i7-12700KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 24000,
+    "igpu": null,
+    "cores": 12
+  },
+  {
+    "name": "Intel Core i7-13700",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 28000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i7-13700F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B660", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 26000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i7-13700K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR5",
+    "price": 32000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i7-13700KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR5",
+    "price": 30000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i7-14700",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B760", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 30000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i7-14700F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["B760", "Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 28000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i7-14700K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR5",
+    "price": 35000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i7-14700KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR5",
+    "price": 33000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i9-12900",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 38000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i9-12900F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 36000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i9-12900K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 45000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i9-12900KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 43000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "Intel Core i9-13900",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 44000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 24
+  },
+  {
+    "name": "Intel Core i9-13900F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 42000,
+    "igpu": null,
+    "cores": 24
+  },
+  {
+    "name": "Intel Core i9-13900K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR5",
+    "price": 50000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 24
+  },
+  {
+    "name": "Intel Core i9-13900KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR5",
+    "price": 48000,
+    "igpu": null,
+    "cores": 24
+  },
+  {
+    "name": "Intel Core i9-14900",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 46000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 24
+  },
+  {
+    "name": "Intel Core i9-14900F",
+    "socket": "LGA1700",
+    "tdp": 65,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR4",
+    "price": 44000,
+    "igpu": null,
+    "cores": 24
+  },
+  {
+    "name": "Intel Core i9-14900K",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR5",
+    "price": 55000,
+    "igpu": "Intel UHD Graphics 770",
+    "cores": 24
+  },
+  {
+    "name": "Intel Core i9-14900KF",
+    "socket": "LGA1700",
+    "tdp": 125,
+    "compatibility_mb": ["Z690", "Z790"],
+    "ddr": "DDR5",
+    "price": 53000,
+    "igpu": null,
+    "cores": 24
+  },
+  {
+    "name": "Intel Core Ultra 5 125H",
+    "socket": "FCLGA1817",
+    "tdp": 28,
+    "compatibility_mb": null,
+    "ddr": "LPDDR5",
+    "price": 12000,
+    "igpu": "Intel Arc Graphics",
+    "cores": 14
+  },
+  {
+    "name": "Intel Core Ultra 7 155H",
+    "socket": "FCLGA1817",
+    "tdp": 28,
+    "compatibility_mb": null,
+    "ddr": "LPDDR5",
+    "price": 18000,
+    "igpu": "Intel Arc Graphics",
+    "cores": 16
+  },
+  {
+    "name": "Intel Core Ultra 9 185H",
+    "socket": "FCLGA1817",
+    "tdp": 45,
+    "compatibility_mb": null,
+    "ddr": "LPDDR5",
+    "price": 25000,
+    "igpu": "Intel Arc Graphics",
+    "cores": 16
+  },
+  {
+    "name": "AMD Ryzen 5 5500",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 8000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 5 5500GT",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 8500,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 5 5600",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 10000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 5 5600G",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 10500,
+    "igpu": "AMD Radeon Vega 7",
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 5 5600GE",
+    "socket": "AM4",
+    "tdp": 35,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 9500,
+    "igpu": "AMD Radeon Vega 7",
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 5 5600X",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 11500,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 5 7500F",
+    "socket": "AM5",
+    "tdp": 65,
+    "compatibility_mb": ["B650", "A620"],
+    "ddr": "DDR5",
+    "price": 11000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 5 7600",
+    "socket": "AM5",
+    "tdp": 65,
+    "compatibility_mb": ["B650", "A620"],
+    "ddr": "DDR5",
+    "price": 12500,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 5 7600X",
+    "socket": "AM5",
+    "tdp": 105,
+    "compatibility_mb": ["B650", "X670", "A620"],
+    "ddr": "DDR5",
+    "price": 14000,
+    "igpu": null,
+    "cores": 6
+  },
+  {
+    "name": "AMD Ryzen 7 5700",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 15000,
+    "igpu": null,
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 5700G",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 16000,
+    "igpu": "AMD Radeon Vega 8",
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 5700GE",
+    "socket": "AM4",
+    "tdp": 35,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 15500,
+    "igpu": "AMD Radeon Vega 8",
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 5700X",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 16000,
+    "igpu": null,
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 5800",
+    "socket": "AM4",
+    "tdp": 65,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 17000,
+    "igpu": null,
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 5800H",
+    "socket": "FP6",
+    "tdp": 45,
+    "compatibility_mb": null,
+    "ddr": "DDR4",
+    "price": 18000,
+    "igpu": "AMD Radeon Vega 8",
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 5800HS",
+    "socket": "FP6",
+    "tdp": 35,
+    "compatibility_mb": null,
+    "ddr": "DDR4",
+    "price": 19000,
+    "igpu": "AMD Radeon Vega 8",
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 5800X",
+    "socket": "AM4",
+    "tdp": 105,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 18000,
+    "igpu": null,
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 5800X3D",
+    "socket": "AM4",
+    "tdp": 105,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 25000,
+    "igpu": null,
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 7700",
+    "socket": "AM5",
+    "tdp": 65,
+    "compatibility_mb": ["B650", "X670", "A620"],
+    "ddr": "DDR5",
+    "price": 19000,
+    "igpu": null,
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 7 7700X",
+    "socket": "AM5",
+    "tdp": 105,
+    "compatibility_mb": ["B650", "X670", "A620"],
+    "ddr": "DDR5",
+    "price": 21000,
+    "igpu": null,
+    "cores": 8
+  },
+  {
+    "name": "AMD Ryzen 9 5900",
+    "socket": "AM4",
+    "tdp": 105,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 25000,
+    "igpu": null,
+    "cores": 12
+  },
+  {
+    "name": "AMD Ryzen 9 5900X",
+    "socket": "AM4",
+    "tdp": 105,
+    "compatibility_mb": ["B550", "X570", "A520"],
+    "ddr": "DDR4",
+    "price": 28000,
+    "igpu": null,
+    "cores": 12
+  },
+  {
+    "name": "AMD Ryzen 9 5950X",
+    "socket": "AM4",
+    "tdp": 105,
+    "compatibility_mb": ["X570", "B550"],
+    "ddr": "DDR4",
+    "price": 45000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "AMD Ryzen 9 7900",
+    "socket": "AM5",
+    "tdp": 65,
+    "compatibility_mb": ["X670", "B650"],
+    "ddr": "DDR5",
+    "price": 35000,
+    "igpu": null,
+    "cores": 12
+  },
+  {
+    "name": "AMD Ryzen 9 7900X",
+    "socket": "AM5",
+    "tdp": 170,
+    "compatibility_mb": ["X670", "B650"],
+    "ddr": "DDR5",
+    "price": 38000,
+    "igpu": null,
+    "cores": 12
+  },
+  {
+    "name": "AMD Ryzen 9 7950X",
+    "socket": "AM5",
+    "tdp": 170,
+    "compatibility_mb": ["X670", "B650"],
+    "ddr": "DDR5",
+    "price": 65000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "AMD Ryzen 9 7950X3D",
+    "socket": "AM5",
+    "tdp": 120,
+    "compatibility_mb": ["X670", "B650"],
+    "ddr": "DDR5",
+    "price": 80000,
+    "igpu": null,
+    "cores": 16
+  },
+  {
+    "name": "AMD Ryzen 9 9900X",
+    "socket": "AM5",
+    "tdp": 170,
+    "compatibility_mb": ["X870", "B850"],
+    "ddr": "DDR5",
+    "price": 40000,
+    "igpu": null,
+    "cores": 12
+  },
+  {
+    "name": "AMD Ryzen 9 9950X",
+    "socket": "AM5",
+    "tdp": 170,
+    "compatibility_mb": ["X870", "B850"],
+    "ddr": "DDR5",
+    "price": 70000,
+    "igpu": null,
+    "cores": 16
+  }
+]
