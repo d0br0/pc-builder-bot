@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Samsung 980 Pro 512GB",
+    "capacity": 512,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7000,
+    "write_speed": 5000,
+    "price": 4000
+  },
+  {
+    "name": "Samsung 980 Pro 1TB",
+    "capacity": 1000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7000,
+    "write_speed": 5000,
+    "price": 7000
+  },
+  {
+    "name": "Samsung 980 Pro 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7000,
+    "write_speed": 6000,
+    "price": 12000
+  },
+  {
+    "name": "WD Black SN850X 512GB",
+    "capacity": 512,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6600,
+    "price": 4500
+  },
+  {
+    "name": "WD Black SN850X 1TB",
+    "capacity": 1000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6600,
+    "price": 7500
+  },
+  {
+    "name": "WD Black SN850X 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6600,
+    "price": 13000
+  },
+  {
+    "name": "Crucial P5 Plus 512GB",
+    "capacity": 512,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 6600,
+    "write_speed": 5000,
+    "price": 3200
+  },
+  {
+    "name": "Crucial P5 Plus 1TB",
+    "capacity": 1000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 6600,
+    "write_speed": 5000,
+    "price": 5500
+  },
+  {
+    "name": "Crucial P5 Plus 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 6600,
+    "write_speed": 5000,
+    "price": 9500
+  },
+  {
+    "name": "Kingston Fury Renegade 512GB",
+    "capacity": 512,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6400,
+    "price": 4200
+  },
+  {
+    "name": "Kingston Fury Renegade 1TB",
+    "capacity": 1000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6400,
+    "price": 7000
+  },
+  {
+    "name": "Kingston Fury Renegade 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 7000,
+    "price": 12500
+  },
+  {
+    "name": "Gigabyte AORUS Gen4 7300 512GB",
+    "capacity": 512,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6800,
+    "price": 3800
+  },
+  {
+    "name": "Gigabyte AORUS Gen4 7300 1TB",
+    "capacity": 1000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6800,
+    "price": 6500
+  },
+  {
+    "name": "Gigabyte AORUS Gen4 7300 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6800,
+    "price": 11000
+  },
+  {
+    "name": "Samsung 990 Pro 512GB",
+    "capacity": 512,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7450,
+    "write_speed": 6900,
+    "price": 4500
+  },
+  {
+    "name": "Samsung 990 Pro 1TB",
+    "capacity": 1000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7450,
+    "write_speed": 6900,
+    "price": 8000
+  },
+  {
+    "name": "Samsung 990 Pro 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7450,
+    "write_speed": 6900,
+    "price": 14000
+  },
+  {
+    "name": "WD Black SN850X 4TB",
+    "capacity": 4000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6600,
+    "price": 24000
+  },
+  {
+    "name": "Samsung 990 Pro 4TB",
+    "capacity": 4000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7450,
+    "write_speed": 6900,
+    "price": 26000
+  },
+  {
+    "name": "SK hynix P41 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7000,
+    "write_speed": 6500,
+    "price": 10000
+  },
+  {
+    "name": "Corsair MP600 Pro LPX 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 4950,
+    "write_speed": 4250,
+    "price": 11500
+  },
+  {
+    "name": "ADATA XPG GAMMIX S11 Pro 512GB",
+    "capacity": 512,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 5000,
+    "write_speed": 4400,
+    "price": 2800
+  },
+  {
+    "name": "ADATA XPG GAMMIX S11 Pro 1TB",
+    "capacity": 1000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 5000,
+    "write_speed": 4400,
+    "price": 5000
+  },
+  {
+    "name": "Corsair Force MP600 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 4950,
+    "write_speed": 4350,
+    "price": 11000
+  },
+  {
+    "name": "Samsung 990 Pro 8TB",
+    "capacity": 8000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7450,
+    "write_speed": 6900,
+    "price": 48000
+  },
+  {
+    "name": "WD Black SN850X 8TB",
+    "capacity": 8000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6600,
+    "price": 45000
+  },
+  {
+    "name": "Samsung 990 Pro 512GB (PCIe 5.0)",
+    "capacity": 512,
+    "pcie_version": "PCIe 5.0",
+    "interface": "NVMe",
+    "read_speed": 12000,
+    "write_speed": 11000,
+    "price": 5000
+  },
+  {
+    "name": "Samsung 990 Pro 1TB (PCIe 5.0)",
+    "capacity": 1000,
+    "pcie_version": "PCIe 5.0",
+    "interface": "NVMe",
+    "read_speed": 12000,
+    "write_speed": 11000,
+    "price": 9000
+  },
+  {
+    "name": "WD Black SN850X 512GB (PCIe 5.0)",
+    "capacity": 512,
+    "pcie_version": "PCIe 5.0",
+    "interface": "NVMe",
+    "read_speed": 12000,
+    "write_speed": 10000,
+    "price": 5500
+  },
+  {
+    "name": "WD Black SN850X 2TB (PCIe 5.0)",
+    "capacity": 2000,
+    "pcie_version": "PCIe 5.0",
+    "interface": "NVMe",
+    "read_speed": 12000,
+    "write_speed": 10000,
+    "price": 15000
+  },
+  {
+    "name": "Seagate FireCuda 530 512GB",
+    "capacity": 512,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6500,
+    "price": 3800
+  },
+  {
+    "name": "Seagate FireCuda 530 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7300,
+    "write_speed": 6500,
+    "price": 12000
+  },
+  {
+    "name": "ADATA XPG GAMMIX S70 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7400,
+    "write_speed": 6800,
+    "price": 11000
+  },
+  {
+    "name": "Kingston KC3000 2TB",
+    "capacity": 2000,
+    "pcie_version": "PCIe 4.0",
+    "interface": "NVMe",
+    "read_speed": 7000,
+    "write_speed": 6900,
+    "price": 10500
+  }
+]
