@@ -246,5 +246,85 @@
     "ddr": "DDR5",
     "chipset": "X870",
     "price": 45000
+  },
+  {
+    "name": "MSI PRO H810M-B DDR5",
+    "socket": "LGA1851",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "H810",
+    "price": 6200
+  },
+  {
+    "name": "Gigabyte B860M DS3H DDR5",
+    "socket": "LGA1851",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "B860",
+    "price": 10500
+  },
+  {
+    "name": "ASRock B860M-HDV/M.2",
+    "socket": "LGA1851",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "B860",
+    "price": 9800
+  },
+  {
+    "name": "ASUS Prime Z890-P",
+    "socket": "LGA1851",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "Z890",
+    "price": 19500
+  },
+  {
+    "name": "MSI MAG Z890 Tomahawk WiFi",
+    "socket": "LGA1851",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "Z890",
+    "price": 24900
+  },
+  {
+    "name": "Gigabyte B650M DS3H AX",
+    "socket": "AM5",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "B650",
+    "price": 11000
+  },
+  {
+    "name": "ASRock B650M-HDV/M.2 WiFi",
+    "socket": "AM5",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "B650",
+    "price": 10200
+  },
+  {
+    "name": "ASUS TUF Gaming X870-Plus WiFi",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "X870",
+    "price": 18500
+  },
+  {
+    "name": "MSI PRO X870-P WiFi",
+    "socket": "AM5",
+    "form_factor": "ATX",
+    "ddr": "DDR5",
+    "chipset": "X870",
+    "price": 16900
+  },
+  {
+    "name": "ASRock A820M-HDV",
+    "socket": "AM5",
+    "form_factor": "mATX",
+    "ddr": "DDR5",
+    "chipset": "A820",
+    "price": 6500
   }
 ]

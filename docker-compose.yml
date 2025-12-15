@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    environment:
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+    volumes:
+      - bot_data:/data  # ← Именованный volume для хранения базы данных
+    restart: unless-stopped
+
+volumes:
+  bot_data:  # ← Именованный volume

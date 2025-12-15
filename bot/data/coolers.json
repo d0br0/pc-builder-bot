@@ -1,13 +1,53 @@
 [
   {
-    "name": "Noctua NH-U12S Redux",
+    "name": "ID-Cooling SE-90M-TC",
     "type": "Air",
-    "fan_rpm": [300, 1500],
-    "noise_level": 22.6,
-    "tdp": 150,
+    "fan_rpm": [300, 1600],
+    "noise_level": 26.6,
+    "tdp": 125,
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
-    "height": 165,
-    "price": 4500
+    "height": 158,
+    "price": 1200
+  },
+  {
+    "name": "Deepcool GAMMAXX 300 V2",
+    "type": "Air",
+    "fan_rpm": [500, 1800],
+    "noise_level": 27.3,
+    "tdp": 120,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 142,
+    "price": 1500
+  },
+  {
+    "name": "ARCTIC Alpine 12",
+    "type": "Air",
+    "fan_rpm": [200, 2000],
+    "noise_level": 20.6,
+    "tdp": 100,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 71,
+    "price": 1000
+  },
+  {
+    "name": "Cooler Master GeminII M4",
+    "type": "Air",
+    "fan_rpm": [650, 2000],
+    "noise_level": 26.3,
+    "tdp": 125,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 156,
+    "price": 1800
+  },
+  {
+    "name": "Deepcool GAMMAXX 400 V2",
+    "type": "Air",
+    "fan_rpm": [900, 1800],
+    "noise_level": 32.3,
+    "tdp": 125,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 158,
+    "price": 2500
   },
   {
     "name": "Cooler Master Hyper 212 EVO V2",
@@ -20,6 +60,36 @@
     "price": 3000
   },
   {
+    "name": "Arctic Freezer 34 eSports (Dual)",
+    "type": "Air",
+    "fan_rpm": [200, 2100],
+    "noise_level": 25.6,
+    "tdp": 150,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 156,
+    "price": 3500
+  },
+  {
+    "name": "Noctua NH-U12S Redux",
+    "type": "Air",
+    "fan_rpm": [300, 1500],
+    "noise_level": 22.6,
+    "tdp": 150,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 165,
+    "price": 4500
+  },
+  {
+    "name": "Cooler Master MasterLiquid ML240L V2",
+    "type": "AIO",
+    "fan_rpm": [650, 2000],
+    "noise_level": 27,
+    "tdp": 150,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 281,
+    "price": 4500
+  },
+  {
     "name": "be quiet! Dark Rock Pro 4",
     "type": "Air",
     "fan_rpm": [250, 1725],
@@ -28,6 +98,26 @@
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
     "height": 173,
     "price": 7500
+  },
+  {
+    "name": "EK AIO Basic 240",
+    "type": "AIO",
+    "fan_rpm": [550, 2200],
+    "noise_level": 30,
+    "tdp": 200,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 294,
+    "price": 7000
+  },
+  {
+    "name": "Noctua NH-U14S TR4-SP3",
+    "type": "Air",
+    "fan_rpm": [300, 1500],
+    "noise_level": 24.6,
+    "tdp": 140,
+    "socket_compatibility": ["TR4", "sWRX8", "SP3"],
+    "height": 158,
+    "price": 8500
   },
   {
     "name": "Noctua NH-D15",
@@ -50,6 +140,16 @@
     "price": 8000
   },
   {
+    "name": "Corsair iCUE H150i ELITE CAPELLIX",
+    "type": "AIO",
+    "fan_rpm": [450, 2400],
+    "noise_level": 36,
+    "tdp": 300,
+    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
+    "height": 294,
+    "price": 11000
+  },
+  {
     "name": "NZXT Kraken X53",
     "type": "AIO",
     "fan_rpm": [500, 2000],
@@ -70,46 +170,6 @@
     "price": 12000
   },
   {
-    "name": "Cooler Master MasterLiquid ML240L V2",
-    "type": "AIO",
-    "fan_rpm": [650, 2000],
-    "noise_level": 27,
-    "tdp": 150,
-    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
-    "height": 281,
-    "price": 4500
-  },
-  {
-    "name": "Deepcool GAMMAXX 400 V2",
-    "type": "Air",
-    "fan_rpm": [900, 1800],
-    "noise_level": 32.3,
-    "tdp": 125,
-    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
-    "height": 158,
-    "price": 2500
-  },
-  {
-    "name": "Arctic Freezer 34 eSports (Dual)",
-    "type": "Air",
-    "fan_rpm": [200, 2100],
-    "noise_level": 25.6,
-    "tdp": 150,
-    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
-    "height": 156,
-    "price": 3500
-  },
-  {
-    "name": "Corsair iCUE H150i ELITE CAPELLIX",
-    "type": "AIO",
-    "fan_rpm": [450, 2400],
-    "noise_level": 36,
-    "tdp": 300,
-    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
-    "height": 294,
-    "price": 11000
-  },
-  {
     "name": "Lian Li Galahad AIO 360 RGB",
     "type": "AIO",
     "fan_rpm": [800, 2000],
@@ -118,25 +178,5 @@
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
     "height": 294,
     "price": 13000
-  },
-  {
-    "name": "Noctua NH-U14S TR4-SP3",
-    "type": "Air",
-    "fan_rpm": [300, 1500],
-    "noise_level": 24.6,
-    "tdp": 140,
-    "socket_compatibility": ["TR4", "sWRX8", "SP3"],
-    "height": 158,
-    "price": 8500
-  },
-  {
-    "name": "EK AIO Basic 240",
-    "type": "AIO",
-    "fan_rpm": [550, 2200],
-    "noise_level": 30,
-    "tdp": 200,
-    "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
-    "height": 294,
-    "price": 7000
   }
 ]

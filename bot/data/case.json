@@ -1,7 +1,57 @@
 [
   {
+    "name": "Zalman T4",
+    "form_factor": ["mATX", "ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 300,
+    "max_cpu_cooler_height": 155,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 1590
+  },
+  {
+    "name": "DeepCool MATREXX 30",
+    "form_factor": ["ATX", "mATX", "ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 320,
+    "max_cpu_cooler_height": 155,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 1750
+  },
+  {
+    "name": "AeroCool Cylon",
+    "form_factor": ["ATX", "mATX", "ITX"],
+    "color": "Black",
+    "side_panel_window": true,
+    "max_gpu_length": 310,
+    "max_cpu_cooler_height": 155,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 1890
+  },
+  {
+    "name": "Cougar MX340-G",
+    "form_factor": ["mATX", "ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 310,
+    "max_cpu_cooler_height": 160,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 1990
+  },
+  {
+    "name": "Aerocool CS-105B",
+    "form_factor": ["ATX", "mATX", "ITX"],
+    "color": "Black",
+    "side_panel_window": false,
+    "max_gpu_length": 290,
+    "max_cpu_cooler_height": 150,
+    "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
+    "price": 1550
+  },
+  {
     "name": "Fractal Design Core 1000",
-    "form_factor": ["Micro-ATX", "Mini-ITX"],
+    "form_factor": ["mATX", "ITX"],
     "color": "Black",
     "side_panel_window": false,
     "max_gpu_length": 300,
@@ -11,7 +61,7 @@
   },
   {
     "name": "Cooler Master MasterBox MB311L",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": false,
     "max_gpu_length": 330,
@@ -21,7 +71,7 @@
   },
   {
     "name": "Corsair 4000D Airflow",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": false,
     "max_gpu_length": 360,
@@ -31,7 +81,7 @@
   },
   {
     "name": "NZXT H510 (2022)",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 360,
@@ -41,7 +91,7 @@
   },
   {
     "name": "Corsair 220T RGB",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 360,
@@ -51,7 +101,7 @@
   },
   {
     "name": "Fractal Design Define Mini C",
-    "form_factor": ["Micro-ATX", "Mini-ITX"],
+    "form_factor": ["mATX", "ITX"],
     "color": "Black",
     "side_panel_window": false,
     "max_gpu_length": 320,
@@ -61,7 +111,7 @@
   },
   {
     "name": "Lian Li Lancool III",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 400,
@@ -71,7 +121,7 @@
   },
   {
     "name": "Phanteks Eclipse P400A",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 380,
@@ -81,7 +131,7 @@
   },
   {
     "name": "be quiet! Pure Base 600",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": false,
     "max_gpu_length": 380,
@@ -91,7 +141,7 @@
   },
   {
     "name": "Cooler Master MasterCase H500P",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 420,
@@ -101,7 +151,7 @@
   },
   {
     "name": "Corsair iCUE 465T RGB",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "White",
     "side_panel_window": true,
     "max_gpu_length": 420,
@@ -111,7 +161,7 @@
   },
   {
     "name": "Fractal Design Torrent",
-    "form_factor": ["ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 450,
@@ -121,7 +171,7 @@
   },
   {
     "name": "Lian Li PC-O11 Dynamic",
-    "form_factor": ["ATX", "E-ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "E-ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 420,
@@ -131,7 +181,7 @@
   },
   {
     "name": "Thermaltake View 71 TG RGB",
-    "form_factor": ["ATX", "E-ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "E-ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 420,
@@ -141,7 +191,7 @@
   },
   {
     "name": "Corsair 7000D Airflow",
-    "form_factor": ["ATX", "E-ATX", "Micro-ATX", "Mini-ITX"],
+    "form_factor": ["ATX", "E-ATX", "mATX", "ITX"],
     "color": "Black",
     "side_panel_window": true,
     "max_gpu_length": 420,

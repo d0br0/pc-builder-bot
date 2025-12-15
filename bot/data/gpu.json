@@ -5,7 +5,8 @@
     "pcie_version": "PCIe 4.0",
     "tdp": 450,
     "gpu_frequency": 2230,
-    "price": 130000
+    "price": 130000,
+    "3dmark": 30495
   },
   {
     "name": "NVIDIA GeForce RTX 4080",
@@ -13,7 +14,8 @@
     "pcie_version": "PCIe 4.0",
     "tdp": 320,
     "gpu_frequency": 2205,
-    "price": 85000
+    "price": 85000,
+    "3dmark": 24908
   },
   {
     "name": "NVIDIA GeForce RTX 4070 Ti",
@@ -21,7 +23,8 @@
     "pcie_version": "PCIe 4.0",
     "tdp": 285,
     "gpu_frequency": 2310,
-    "price": 60000
+    "price": 60000,
+    "3dmark": 20628
   },
   {
     "name": "NVIDIA GeForce RTX 4070",
@@ -29,7 +32,8 @@
     "pcie_version": "PCIe 4.0",
     "tdp": 200,
     "gpu_frequency": 1920,
-    "price": 50000
+    "price": 50000,
+    "3dmark": 16577
   },
   {
     "name": "NVIDIA GeForce RTX 4060 Ti 16GB",
@@ -37,7 +41,8 @@
     "pcie_version": "PCIe 4.0",
     "tdp": 165,
     "gpu_frequency": 2535,
-    "price": 45000
+    "price": 40000,
+    "3dmark": 13008
   },
   {
     "name": "NVIDIA GeForce RTX 4060",
@@ -45,7 +50,8 @@
     "pcie_version": "PCIe 4.0",
     "tdp": 115,
     "gpu_frequency": 1822,
-    "price": 30000
+    "price": 28000,
+    "3dmark": 10396
   },
   {
     "name": "NVIDIA GeForce RTX 5090",
@@ -53,7 +59,8 @@
     "pcie_version": "PCIe 5.0",
     "tdp": 550,
     "gpu_frequency": 2800,
-    "price": 180000
+    "price": 280000,
+    "3dmark": 36094
   },
   {
     "name": "NVIDIA GeForce RTX 5080",
@@ -61,70 +68,77 @@
     "pcie_version": "PCIe 5.0",
     "tdp": 350,
     "gpu_frequency": 2650,
-    "price": 110000
+    "price": 125000,
+    "3dmark": 28148
   },
   {
-    "name": "NVIDIA GeForce RTX 5070",
+    "name": "NVIDIA GeForce RTX 5070 Ti",
     "vram": 16,
+    "pcie_version": "PCIe 5.0",
+    "tdp": 300,
+    "gpu_frequency": 2400,
+    "price": 95000,
+    "3dmark": 24416
+  },{
+    "name": "NVIDIA GeForce RTX 5070",
+    "vram": 12,
     "pcie_version": "PCIe 5.0",
     "tdp": 250,
     "gpu_frequency": 2400,
-    "price": 75000
-  },
-  {
-    "name": "AMD Radeon RX 7900 XTX",
-    "vram": 24,
-    "pcie_version": "PCIe 4.0",
-    "tdp": 355,
-    "gpu_frequency": 2500,
-    "price": 90000
-  },
-  {
-    "name": "AMD Radeon RX 7900 XT",
-    "vram": 20,
-    "pcie_version": "PCIe 4.0",
-    "tdp": 300,
-    "gpu_frequency": 2400,
-    "price": 75000
-  },
-  {
-    "name": "AMD Radeon RX 7800 XT",
+    "price": 65000,
+    "3dmark": 20334
+  },{
+    "name": "NVIDIA GeForce RTX 5060 Ti",
     "vram": 16,
-    "pcie_version": "PCIe 4.0",
-    "tdp": 263,
-    "gpu_frequency": 2430,
-    "price": 55000
+    "pcie_version": "PCIe 5.0",
+    "tdp": 180,
+    "gpu_frequency": 2400,
+    "price": 50000,
+    "3dmark": 15118
   },
   {
-    "name": "AMD Radeon RX 7700 XT",
-    "vram": 12,
-    "pcie_version": "PCIe 4.0",
-    "tdp": 245,
-    "gpu_frequency": 2170,
-    "price": 45000
-  },
-  {
-    "name": "AMD Radeon RX 7600",
+    "name": "NVIDIA GeForce RTX 5060",
     "vram": 8,
-    "pcie_version": "PCIe 4.0",
-    "tdp": 165,
-    "gpu_frequency": 2040,
-    "price": 28000
+    "pcie_version": "PCIe 5.0",
+    "tdp": 150,
+    "gpu_frequency": 2400,
+    "price": 32000,
+    "3dmark": 13079
   },
   {
-    "name": "AMD Radeon RX 9700 XTX",
+    "name": "AMD Radeon RX 9070 XT",
     "vram": 16,
     "pcie_version": "PCIe 5.0",
     "tdp": 300,
     "gpu_frequency": 2600,
-    "price": 85000
+    "price": 75000,
+    "3dmark": 25162
   },
   {
-    "name": "AMD Radeon RX 9600 XTX",
+    "name": "AMD Radeon RX 9700",
     "vram": 16,
     "pcie_version": "PCIe 5.0",
     "tdp": 250,
     "gpu_frequency": 2500,
-    "price": 60000
+    "price": 65000,
+    "3dmark": 22744
+  },
+  {
+    "name": "AMD Radeon RX 9600 XT 16GB",
+    "vram": 16,
+    "pcie_version": "PCIe 5.0",
+    "tdp": 160,
+    "gpu_frequency": 2500,
+    "price": 40000,
+    "3dmark": 15062
+  },
+  {
+    "name": "AMD Radeon RX 9600 XT",
+    "vram": 8,
+    "pcie_version": "PCIe 5.0",
+    "tdp": 160,
+    "gpu_frequency": 2500,
+    "price": 33000,
+    "3dmark": 14640
   }
 ]
