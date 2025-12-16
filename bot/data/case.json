@@ -7,7 +7,7 @@
     "max_gpu_length": 300,
     "max_cpu_cooler_height": 155,
     "drive_bays": {"2.5_inch": 2, "3.5_inch": 2},
-    "price": 1590
+    "price": 1500
   },
   {
     "name": "DeepCool MATREXX 30",

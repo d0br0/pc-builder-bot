@@ -1,5 +1,13 @@
 [
   {
+    "name": "Corsair CV400 (2021) 400W",
+    "power": 400,
+    "efficiency_rating": "80+ White",
+    "form_factor": "ATX",
+    "modular": "No",
+    "price": 2000
+  },
+  {
     "name": "Corsair CV450 (2021) 450W",
     "power": 450,
     "efficiency_rating": "80+ Bronze",

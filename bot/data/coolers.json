@@ -64,7 +64,7 @@
     "type": "Air",
     "fan_rpm": [200, 2100],
     "noise_level": 25.6,
-    "tdp": 150,
+    "tdp": 155,
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
     "height": 156,
     "price": 3500
@@ -74,7 +74,7 @@
     "type": "Air",
     "fan_rpm": [300, 1500],
     "noise_level": 22.6,
-    "tdp": 150,
+    "tdp": 160,
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
     "height": 165,
     "price": 4500
@@ -84,7 +84,7 @@
     "type": "AIO",
     "fan_rpm": [650, 2000],
     "noise_level": 27,
-    "tdp": 150,
+    "tdp": 165,
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
     "height": 281,
     "price": 4500
@@ -114,10 +114,10 @@
     "type": "Air",
     "fan_rpm": [300, 1500],
     "noise_level": 24.6,
-    "tdp": 140,
+    "tdp": 170,
     "socket_compatibility": ["TR4", "sWRX8", "SP3"],
     "height": 158,
-    "price": 8500
+    "price": 5000
   },
   {
     "name": "Noctua NH-D15",
@@ -144,7 +144,7 @@
     "type": "AIO",
     "fan_rpm": [450, 2400],
     "noise_level": 36,
-    "tdp": 300,
+    "tdp": 2600,
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
     "height": 294,
     "price": 11000
@@ -164,7 +164,7 @@
     "type": "AIO",
     "fan_rpm": [500, 2000],
     "noise_level": 21,
-    "tdp": 280,
+    "tdp": 300,
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
     "height": 294,
     "price": 12000
@@ -174,7 +174,7 @@
     "type": "AIO",
     "fan_rpm": [800, 2000],
     "noise_level": 25,
-    "tdp": 300,
+    "tdp": 350,
     "socket_compatibility": ["AM4", "AM5", "LGA1700", "LGA1200", "LGA1151"],
     "height": 294,
     "price": 13000

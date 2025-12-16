@@ -25,7 +25,7 @@
     "ddr_version": "DDR4",
     "frequency": 3200,
     "total_capacity": 32,
-    "price": 7500
+    "price": 7000
   },
   {
     "name": "Corsair Dominator Platinum RGB 32GB (2x16GB) DDR4-3600",
@@ -63,11 +63,18 @@
     "price": 10000
   },
   {
+    "name": "Samsung M321R8FAF4 32GB (2x8GB) DDR5-4800",
+    "ddr_version": "DDR5",
+    "frequency": 4800,
+    "total_capacity": 32,
+    "price": 5000
+  },
+  {
     "name": "Samsung M321R8FAF4 32GB (2x16GB) DDR5-4800",
     "ddr_version": "DDR5",
     "frequency": 4800,
     "total_capacity": 32,
-    "price": 9500
+    "price": 8000
   },
   {
     "name": "G.Skill Flare X5 64GB (2x32GB) DDR4-3600",

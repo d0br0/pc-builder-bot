@@ -3,7 +3,6 @@ from telegram.ext import ContextTypes, ConversationHandler
 from bot.database import BuildSaver
 from bot.selector import ComponentSelector
 from bot.config import YANDEX_MAPS_API_KEY
-from bot.config import YANDEX_Static_API_KEY
 import requests
 
 # Состояния
@@ -24,17 +23,76 @@ class BotHandlers:
         reply_markup = InlineKeyboardMarkup(keyboard)
 
         if update.message:
-            await update.message.reply_text("Добро пожаловать! Выберите действие:", reply_markup=reply_markup)
+            await update.message.reply_text("Выберите действие:", reply_markup=reply_markup)
         elif update.callback_query:
             query = update.callback_query
             await query.answer()
-            await query.edit_message_text("Добро пожаловать! Выберите действие:", reply_markup=reply_markup)
+            await query.edit_message_text("Выберите действие:", reply_markup=reply_markup)
 
     async def handle_new_build(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         query = update.callback_query
         await query.answer()
-        await query.edit_message_text(text="Введите ваш бюджет на ПК (в рублях):")
+
+        keyboard = [
+            [InlineKeyboardButton("Игры", callback_data='games')],
+            [InlineKeyboardButton("Офис", callback_data='office')],
+            [InlineKeyboardButton("Монтаж", callback_data='editing')]
+        ]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        await query.edit_message_text(text="Для каких целей будет использоваться ПК?", reply_markup=reply_markup)
+
+        return GOAL
+
+    async def ask_goal(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        query = update.callback_query
+        await query.answer()
+        goal = query.data
+        context.user_data['goal'] = goal
+
+        min_budget = {
+            'games': 56000,
+            'office': 30000,
+            'editing': 56000
+        }.get(goal, 30000)
+
+        await query.edit_message_text(
+            text=f"Рекомендуемый минимальный бюджет для '{goal}' — {min_budget} руб.\nВведите ваш бюджет (в рублях):"
+        )
+
         return BUDGET
+
+    async def handle_budget(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        try:
+            budget = int(update.message.text)
+            goal = context.user_data['goal']
+
+            min_budget = {
+                'games': 56000,
+                'office': 30000,
+                'editing': 56000
+            }.get(goal, 30000)
+
+            if budget < min_budget:
+                await update.message.reply_text(
+                    f"Бюджет слишком низкий для выбранной цели. Рекомендуем минимум {min_budget} руб."
+                )
+                return BUDGET
+
+            context.user_data['budget'] = budget
+
+            build = self.selector.select(budget, goal)
+
+            response, reply_markup = self.format_build(build)
+
+            await update.message.reply_text(text=response, reply_markup=reply_markup)
+
+            self.db.save_build(update.message.from_user.id, build)
+
+            return ConversationHandler.END
+
+        except ValueError:
+            await update.message.reply_text("Пожалуйста, введите число.")
+            return BUDGET
 
     async def show_my_builds(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         query = update.callback_query
@@ -76,46 +134,6 @@ class BotHandlers:
         keyboard = [[InlineKeyboardButton("В главное меню", callback_data='main_menu')]]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await query.edit_message_text(text=response, reply_markup=reply_markup)
-
-    async def handle_budget(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        try:
-            budget = int(update.message.text)
-            context.user_data['budget'] = budget
-            keyboard = [
-                [InlineKeyboardButton("Игры", callback_data='games')],
-                [InlineKeyboardButton("Офис", callback_data='office')],
-                [InlineKeyboardButton("Монтаж", callback_data='editing')]
-            ]
-            reply_markup = InlineKeyboardMarkup(keyboard)
-            await update.message.reply_text("Для каких целей будет использоваться ПК?", reply_markup=reply_markup)
-            
-            return GOAL
-        except ValueError:
-            keyboard = [
-                [InlineKeyboardButton("В главное меню", callback_data='main_menu')]
-            ]
-            reply_markup = InlineKeyboardMarkup(keyboard)
-            await update.message.reply_text("Пожалуйста, введите число.")
-            return BUDGET
-
-    async def ask_goal(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        query = update.callback_query
-        await query.answer()
-        goal = query.data
-        print(GOAL)
-        context.user_data['goal'] = goal
-
-        budget = context.user_data['budget']
-
-        build = self.selector.select(budget, goal)
-
-        response, reply_markup = self.format_build(build)
-
-        await query.edit_message_text(text=response, reply_markup=reply_markup)
-
-        self.db.save_build(query.from_user.id, build)
-
-        return ConversationHandler.END
     
     async def find_stores(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         query = update.callback_query
@@ -182,16 +200,27 @@ class BotHandlers:
         }
 
     def format_build(self, build):
+        # build — это словарь с компонентами (например, build['cpu'] — это словарь)
+        cpu_name = build['cpu']['name'] if build['cpu'] else "None"
+        gpu_name = build['gpu']['name'] if build['gpu'] else "None"
+        mb_name = build['motherboard']['name'] if build['motherboard'] else "None"
+        ram_name = build['ram']['name'] if build['ram'] else "None"
+        ssd_name = build['ssd']['name'] if build['ssd'] else "None"
+        psu_name = build['psu']['name'] if build['psu'] else "None"
+        case_name = build['pc_case']['name'] if build['pc_case'] else "None"
+        cooler_name = build['cooler']['name'] if build['cooler'] else "None"
+        total_price = build['total_price']
+
         response = f"""
-        CPU: {build['cpu']}\n
-        GPU: {build['gpu']}\n
-        MB: {build['motherboard']}\n
-        RAM: {build['ram']}\n
-        SSD: {build['ssd']}\n
-        PSU: {build['psu']}\n
-        Case: {build['pc_case']}\n
-        Cooler: {build['cooler']}\n
-        Общая цена: {build['total_price']} руб.
+        CPU: {cpu_name}\n
+        GPU: {gpu_name}\n
+        MB: {mb_name}\n
+        RAM: {ram_name}\n
+        SSD: {ssd_name}\n
+        PSU: {psu_name}\n
+        Case: {case_name}\n
+        Cooler: {cooler_name}\n
+        Обoщая цена: {total_price} руб.
         """.strip()
 
         keyboard = [

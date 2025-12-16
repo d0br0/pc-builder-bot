@@ -52,33 +52,33 @@ class ComponentSelector:
                 'gpu': {'budget': budget * 0.5, 'sort_key': lambda x: x.get('3dmark', 0)},
                 'cpu': {'budget': budget * 0.16, 'sort_key': lambda x: (x.get('cinebench_r23_single', 0), x.get('l3_cache', 0))},
                 'ram': {'budget': budget * 0.07, 'sort_key': lambda x: x.get('frequency', 0)},
-                'ssd': {'budget': budget * 0.04, 'sort_key': lambda x: x.get('write_speed', 0)},
-                'psu': {'budget': budget * 0.07, 'sort_key': None},
-                'mb': {'budget': budget * 0.1, 'sort_key': None},
-                'pc_case': {'budget': budget * 0.03, 'sort_key': None},
-                'cooler': {'budget': budget * 0.03, 'sort_key': None},
+                'ssd': {'budget': budget * 0.04, 'sort_key': lambda x: (x.get('capacity', 0), x.get('write_speed', 0))},
+                'psu': {'budget': budget * 0.07, 'sort_key': lambda x: (x.get('power', 0), x.get('price', 0))},
+                'mb': {'budget': budget * 0.1, 'sort_key': lambda x: x.get('price', 0)},
+                'pc_case': {'budget': budget * 0.03, 'sort_key': lambda x: x.get('price', 0)},
+                'cooler': {'budget': budget * 0.03, 'sort_key': lambda x: x.get('tdp', 0)},
             }
         elif goal == "editing":
             return {
-                'gpu': {'budget': budget * 0.4, 'sort_key': lambda x: x.get('vram', 0)},
-                'cpu': {'budget': budget * 0.3, 'sort_key': lambda x: x.get('cinebench_r23_multi', 0)},
-                'ram': {'budget': budget * 0.05, 'sort_key': lambda x: x.get('total_capacity', 0)},
-                'ssd': {'budget': budget * 0.04, 'sort_key': None},
-                'psu': {'budget': budget * 0.05, 'sort_key': None},
-                'mb': {'budget': budget * 0.1, 'sort_key': None},
-                'pc_case': {'budget': budget * 0.03, 'sort_key': None},
-                'cooler': {'budget': budget * 0.03, 'sort_key': None},
+                'gpu': {'budget': budget * 0.4, 'sort_key': lambda x: x.get('3dmark', 0)},
+                'cpu': {'budget': budget * 0.26, 'sort_key': lambda x: x.get('cinebench_r23_multi', 0)},
+                'ram': {'budget': budget * 0.07, 'sort_key': lambda x: x.get('total_capacity', 0)},
+                'ssd': {'budget': budget * 0.04, 'sort_key': lambda x: (x.get('capacity', 0), x.get('write_speed', 0))},
+                'psu': {'budget': budget * 0.07, 'sort_key': lambda x: (x.get('power', 0), x.get('price', 0))},
+                'mb': {'budget': budget * 0.1, 'sort_key': lambda x: x.get('price', 0)},
+                'pc_case': {'budget': budget * 0.03, 'sort_key': lambda x: x.get('price', 0)},
+                'cooler': {'budget': budget * 0.03, 'sort_key': lambda x: x.get('tdp', 0)},
             }
         elif goal == "office":
             return {
                 'gpu': {'budget': 0, 'sort_key': None},
-                'cpu': {'budget': budget * 0.7, 'sort_key': lambda x: x.get('cinebench_r23_multi', 0)},
-                'ram': {'budget': budget * 0.05, 'sort_key': lambda x: x.get('frequency', 0)},
-                'ssd': {'budget': budget * 0.04, 'sort_key': None},
-                'psu': {'budget': budget * 0.05, 'sort_key': None},
-                'mb': {'budget': budget * 0.1, 'sort_key': None},
-                'pc_case': {'budget': budget * 0.03, 'sort_key': None},
-                'cooler': {'budget': budget * 0.03, 'sort_key': None},
+                'cpu': {'budget': budget * 0.43, 'sort_key': lambda x: ( x.get('igpu') is not None, x.get('cinebench_r23_multi', 0))},
+                'ram': {'budget': budget * 0.13, 'sort_key': lambda x: x.get('frequency', 0)},
+                'ssd': {'budget': budget * 0.07, 'sort_key': lambda x: (x.get('capacity', 0), x.get('write_speed', 0))},
+                'psu': {'budget': budget * 0.07, 'sort_key': lambda x: (x.get('power', 0), x.get('price', 0))},
+                'mb': {'budget': budget * 0.17, 'sort_key': lambda x: x.get('price', 0)},
+                'pc_case': {'budget': budget * 0.05, 'sort_key': lambda x: x.get('price', 0)},
+                'cooler': {'budget': budget * 0.05, 'sort_key': lambda x: x.get('tdp', 0)},
             }
 
     def select(self, budget, goal):
@@ -124,12 +124,18 @@ class ComponentSelector:
             build['motherboard'] = None
 
         # RAM
-        ram = self.select_component(
-            components['ram'],
-            params['ram']['budget'],
-            sort_key=params['ram']['sort_key']
-        )
-        build['ram'] = ram
+        if build['motherboard']:
+            mb_ddr = build['motherboard']['ddr']
+            ram_options = [r for r in components['ram'] if r['ddr_version'] == mb_ddr]
+            ram = self.select_component(
+                ram_options,
+                params['ram']['budget'],
+                sort_key=params['ram']['sort_key']
+            )
+            build['ram'] = ram
+        else:
+            build['ram'] = None
+
 
         # SSD
         ssd = self.select_component(
@@ -146,7 +152,7 @@ class ComponentSelector:
         if build['gpu']:
             total_tdp += build['gpu']['tdp']
 
-        min_power = total_tdp * 1.75
+        min_power = total_tdp * 1.5
 
         psu = self.select_component(
             components['psu'],

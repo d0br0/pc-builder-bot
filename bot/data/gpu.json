@@ -15,7 +15,7 @@
     "tdp": 320,
     "gpu_frequency": 2205,
     "price": 85000,
-    "3dmark": 24908
+    "3dmark": 25165
   },
   {
     "name": "NVIDIA GeForce RTX 4070 Ti",
@@ -78,7 +78,7 @@
     "tdp": 300,
     "gpu_frequency": 2400,
     "price": 95000,
-    "3dmark": 24416
+    "3dmark": 25200
   },{
     "name": "NVIDIA GeForce RTX 5070",
     "vram": 12,

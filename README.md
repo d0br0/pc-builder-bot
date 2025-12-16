@@ -40,30 +40,6 @@ Telegram-бот, который помогает пользователям по
 - **requests** — для взаимодействия с внешними API.
 - **Yandex Maps API** — для геокодирования и статических карт.
 
-## Структура проекта
-pc-builder-bot/
-├── bot/
-│ ├── init.py
-│ ├── bot.py
-│ ├── handlers.py
-│ ├── config.py
-│ ├── database.py
-│ ├── selector.py
-│ └── data/
-│ ├── cpu.json
-│ ├── gpu.json
-│ ├── ram.json
-│ ├── ssd.json
-│ ├── psu.json
-│ ├── case.json
-│ ├── coolers.json
-│ └── motherboard.json
-├── docker-compose.yml
-├── Dockerfile
-├── requirements.txt
-├── .env
-└── README.md
-
 ## Запуск проекта
 
 ### 1. Клонирование репозитория
