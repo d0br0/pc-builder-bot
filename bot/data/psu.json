@@ -198,5 +198,14 @@
     "form_factor": "SFX",
     "modular": "No",
     "price": 9000
+  },
+  {
+    "name": "ZALMAN TeraMax II 1200W",
+    "power": 1200,
+    "efficiency_rating": "80+ Platinum",
+    "form_factor": "SFX",
+    "modular": "Yes",
+    "price": 16000
   }
+
 ]
